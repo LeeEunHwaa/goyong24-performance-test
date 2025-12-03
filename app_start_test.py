@@ -39,7 +39,7 @@ DEVICE_NAME = "Galaxy S25"
 APPIUM_SERVER_URL = "http://127.0.0.1:4723"
 
 #반복 횟수
-REPEAT_COUNT = 2
+REPEAT_COUNT = 10
 
 def clean_background_apps(driver):
     print("   🧹 [Clean Up] 백그라운드 앱 정리 중...")
@@ -146,3 +146,4 @@ def measure_3apps_fair_launch_v2():
 
 if __name__ == "__main__":
     measure_3apps_fair_launch_v2()
+
