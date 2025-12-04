@@ -10,10 +10,10 @@
 
 | ID | 테스트 항목 | 코드 바로가기 | 
 |:---:|:-----------|:-------------|
-| **TC-01** | 앱 실행 속도 |[🔗 코드 보기](#) |
-| **TC-02** | 로그인 속도 (ID/PW) | [🔗 코드 보기](#) | 
-| **TC-03** | 로그인 속도 (인증서) | [🔗 코드 보기](#) | 
-| **TC-04** | 검색 속도 | [🔗 코드 보기](#) |
+| **TC-01** | 앱 실행 속도 |[🔗 코드 보기](https://github.com/LeeEunHwaa/goyong24-performance-test/tree/main/APP_Start) |
+| **TC-02** | 로그인 속도 (ID/PW) | [🔗 코드 보기](https://github.com/LeeEunHwaa/goyong24-performance-test/tree/main/ID_PW_Login) | 
+| **TC-03** | 로그인 속도 (인증서) | [🔗 코드 보기](https://github.com/LeeEunHwaa/goyong24-performance-test/tree/main/Certificate_Login) | 
+| **TC-04** | 검색 속도 | [🔗 코드 보기](https://github.com/LeeEunHwaa/goyong24-performance-test/tree/main/Search) |
 
 
 -----
@@ -26,7 +26,7 @@
 |:---:|:---|:---|:---|
 | **TC-01** | **앱 실행 속도** | 앱 아이콘 클릭(Start) \~ 메인 요소 로딩 완료(End) | Cold Start 기준 (캐시 제거) |
 | **TC-02** | **로그인 속도 (ID/PW)** | 로그인 버튼 클릭 \~ 로그인 완료 팝업/화면 등장 | 정부24 반자동(Semi-auto) |
-| **TC-03** | **로그인 속도 (인증서)** | 인증서 완료 버튼 클릭 \~ 로그인 완료 | - |
+| **TC-03** | **로그인 속도 (인증서)** | 인증서 완료 버튼 클릭 \~ 로그인 완료 | 잡코리아 인증서 로그인 X |
 | **TC-04** | **검색 속도** | 검색어 입력 후 버튼 클릭 \~ 결과 리스트 로딩 완료 | - |
 
 -----
