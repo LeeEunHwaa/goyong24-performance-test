@@ -8,12 +8,12 @@
 
 ## 📂 0. 테스트 케이스 & 코드 바로가기
 
-| ID | 테스트 항목 | 코드 바로가기 | 
-|:---:|:-----------|:-------------|
-| **TC-01** | 앱 실행 속도 |[🔗 코드 보기](https://github.com/LeeEunHwaa/goyong24-performance-test/tree/main/APP_Start) |
-| **TC-02** | 로그인 속도 (ID/PW) | [🔗 코드 보기](https://github.com/LeeEunHwaa/goyong24-performance-test/tree/main/ID_PW_Login) | 
-| **TC-03** | 로그인 속도 (인증서) | [🔗 코드 보기](https://github.com/LeeEunHwaa/goyong24-performance-test/tree/main/Certificate_Login) | 
-| **TC-04** | 검색 속도 | [🔗 코드 보기](https://github.com/LeeEunHwaa/goyong24-performance-test/tree/main/Search) |
+| ID | 테스트 항목 | 코드 바로가기(AOS) |코드 바로가기(iOS) | 
+|:---:|:-----------|:-------------|:-------------|
+| **TC-01** | 앱 실행 속도 |[🔗 코드 보기](https://github.com/LeeEunHwaa/goyong24-performance-test/tree/main/APP_Start) |[🔗 코드 보기](https://github.com/LeeEunHwaa/goyong24-performance-test/tree/main/App_Start_iOS) |
+| **TC-02** | 로그인 속도 (ID/PW) | [🔗 코드 보기](https://github.com/LeeEunHwaa/goyong24-performance-test/tree/main/ID_PW_Login) | [🔗 코드 보기](https://github.com/LeeEunHwaa/goyong24-performance-test/tree/main/ID_PW_Login_iOS) |
+| **TC-03** | 로그인 속도 (인증서) | [🔗 코드 보기](https://github.com/LeeEunHwaa/goyong24-performance-test/tree/main/Certificate_Login) | [🔗 코드 보기](https://github.com/LeeEunHwaa/goyong24-performance-test/tree/main/Certificate_Login_iOS) |
+| **TC-04** | 검색 속도 | [🔗 코드 보기](https://github.com/LeeEunHwaa/goyong24-performance-test/tree/main/Search) |[🔗 코드 보기](https://github.com/LeeEunHwaa/goyong24-performance-test/tree/main/Search_iOS) |
 
 
 -----
