@@ -111,8 +111,9 @@ AW_KEISG24_Performance-Testing/
     ```
 
 
-### 상세
- [상세보기](https://hospitable-syrup-c6f.notion.site/cced123c3ef248d4b5e89e5f23091608)
+### 🔎 상세 내용
+👉 [Notion에서 자세히 보기](https://hospitable-syrup-c6f.notion.site/cced123c3ef248d4b5e89e5f23091608)
+
 
 
 -----
