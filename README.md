@@ -71,15 +71,18 @@
 ## 📂 4. 프로젝트 구조 (Project Structure)
 
 ```bash
-AW_KEISG24_Performance-Testing/
-├── measure_launch.py         # 앱 실행 시간 측정 (단일)
-├── measure_login_idpw.py     # ID/PW 로그인 성능 측정 (반자동)
-├── compare_3apps_launch.py   # [고용24 vs 정부24 vs 잡코리아] 통합 비교 측정
-├── requirements.txt          # 필요 라이브러리 목록
-├── README.md                 # 프로젝트 문서
-└── results/                  # 측정 결과 저장 폴더 (CSV)
-    ├── launch_result_2025xxxx.csv
-    └── compare_result_2025xxxx.csv
+goyong24-performance-test/
+├─ AOS/                              # Android 성능 테스트
+│  ├─ APP_Start/                     # TC-01 앱 실행 속도
+│  ├─ IDPW_Login/                    # TC-02 로그인 속도 (ID/PW)
+│  ├─ Certificate_Login/             # TC-03 로그인 속도 (인증서)
+│  └─ Search/                        # TC-04 검색(통합검색) 속도
+├─ iOS/                              # iOS 성능 테스트
+│  ├─ App_Start_iOS/                 # TC-01 앱 실행 속도
+│  ├─ ID_PW_Login_iOS/               # TC-02 로그인 속도 (ID/PW)
+│  ├─ Certificate_Login_iOS/          # TC-03 로그인 속도 (인증서)
+│  └─ Search_iOS/                    # TC-04 검색(통합검색) 속도
+└─ README.md                         # 프로젝트 문서
 ```
 
 -----
