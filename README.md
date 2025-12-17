@@ -36,10 +36,10 @@
 ### Hardware
 
   * **PC OS**: Windows 10/11
-  * **Test Device**: Samsung Galaxy S25 (Android 14/15)
+  * **Test Device**: Samsung Galaxy S25 (AOS 16)
 
-  * **MAC OS**: -
-  * **Test Device**: -(아이폰)
+  * **MAC OS**: 15.7.2
+  * **Test Device**: iPhone 15 (iOS 18.6.2)​
 
 ### Software & Tools
 
@@ -49,6 +49,7 @@
       * `Appium-Python-Client`
       * `Selenium`
       * `Pandas` (데이터 분석 및 CSV 저장용)
+      * `OpenCV` : 화면 렌더링 완료 시점을 검증하는 이미지 프로세싱 라이브러리​
   * **Others**: Android SDK Platform-Tools (ADB)
 
 -----
@@ -109,6 +110,9 @@ AW_KEISG24_Performance-Testing/
     python compare_3apps_launch.py
     ```
 
+
+### 상세
+ [상세보기](https://hospitable-syrup-c6f.notion.site/cced123c3ef248d4b5e89e5f23091608)
 
 
 -----
