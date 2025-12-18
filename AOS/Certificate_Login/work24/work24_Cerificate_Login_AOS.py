@@ -15,7 +15,7 @@ import os  # ✅ [3] 경로 저장을 위해 추가
 APP_PACKAGE = "kr.or.keis.mo"
 
 # 금융인증서 비밀번호 6자리
-CERT_PASSWORD = "------"
+CERT_PASSWORD = "123456"
 
 APPIUM_SERVER_URL = "http://127.0.0.1:4723"
 DEVICE_NAME = "Android"
@@ -401,4 +401,5 @@ def test_login_security_safe(repeat_count=REPEAT_COUNT):
     print("\n✅ 금융인증서 로그인 반복 테스트 및 CSV 저장까지 모두 완료되었습니다.")
 
 if __name__ == "__main__":
+
     test_login_security_safe()
