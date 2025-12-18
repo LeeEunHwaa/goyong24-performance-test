@@ -15,7 +15,7 @@ warnings.simplefilter('ignore', NotOpenSSLWarning)
 # ---------------------------------------------------------
 # [설정] 정부24 계정 및 테스트 설정
 # ---------------------------------------------------------
-CERTI_PASSWORD = "000000"  # 금융인증서 6자리 비밀번호 입력
+CERTI_PASSWORD = "123456"  # 금융인증서 6자리 비밀번호 입력
 REPEAT_COUNT = 10
 
 options = XCUITestOptions()
