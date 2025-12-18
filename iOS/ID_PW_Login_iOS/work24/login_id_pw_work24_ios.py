@@ -20,8 +20,8 @@ warnings.simplefilter('ignore', NotOpenSSLWarning)
 # ---------------------------------------------------------
 # [설정] 계정 정보 및 이미지 설정
 # ---------------------------------------------------------
-LOGIN_ID = "sh200220" 
-LOGIN_PW = "!sh170520"
+LOGIN_ID = "------" 
+LOGIN_PW = "------"
 REPEAT_COUNT = 10
 
 # ✅ [이미지 설정] 로그인 성공 팝업(Ok 버튼 등) 캡처 파일명
@@ -39,7 +39,7 @@ ROI_H_PCT = 0.05     # 세로 높이
 options = XCUITestOptions()
 options.platform_name = "iOS"
 options.automation_name = "XCUITest"
-options.udid = "00008120-001E34DC3EB8201E"
+options.udid = "-----------------------------"
 options.bundle_id = "kr.or.keis.mo"
 
 options.set_capability("connectHardwareKeyboard", False)
