@@ -15,7 +15,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
 # ===================== [설정 영역] =====================
-UDID = "00008120-001E34DC3EB8201E"
+UDID = "---------------------"
 BUNDLE_ID = "kr.co.jobkorea.jobkorea1"
 DEVICE_NAME = "iPhone"
 APPIUM_SERVER_URL = "http://127.0.0.1:4723"
