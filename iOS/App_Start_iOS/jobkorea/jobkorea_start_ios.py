@@ -19,7 +19,7 @@ from appium.options.ios import XCUITestOptions
 # ==========================================
 ITERATIONS = 10
 BUNDLE_ID = "kr.co.jobkorea.jobkorea1"
-UDID = "00008120-001E34DC3EB8201E"  # [UDID 입력 필수]
+UDID = "--------------"  # [UDID 입력 필수]
 
 # ✅ 이 .py 파일이 있는 폴더 기준
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
