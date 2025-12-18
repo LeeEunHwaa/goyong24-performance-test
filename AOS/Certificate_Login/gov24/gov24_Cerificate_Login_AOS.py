@@ -18,7 +18,7 @@ APPIUM_SERVER_URL = "http://127.0.0.1:4723"
 DEVICE_NAME = "Android"
 
 # 🔐 금융인증서 6자리 비밀번호
-CERT_PW = "------" 
+CERT_PW = "123456" 
 
 # 반복 횟수
 REPEAT_COUNT = 10
@@ -321,4 +321,5 @@ def test_login_minwon(repeat_count=REPEAT_COUNT):
         print("ℹ️ 저장할 데이터가 없습니다.")
 
 if __name__ == "__main__":
+
     test_login_minwon()
