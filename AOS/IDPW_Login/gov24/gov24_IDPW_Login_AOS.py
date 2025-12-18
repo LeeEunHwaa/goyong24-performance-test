@@ -19,8 +19,8 @@ APPIUM_SERVER_URL = "http://127.0.0.1:4723"
 DEVICE_NAME = "Android"
 
 # 테스트에 사용할 아이디 / 비밀번호
-LOGIN_ID = "sh200220"       # ← 정부24 아이디
-LOGIN_PW = "!sh17052002"       # ← 정부24 비밀번호
+LOGIN_ID = "------"       # ← 정부24 아이디
+LOGIN_PW = "------"       # ← 정부24 비밀번호
 
 # 반복 횟수
 REPEAT_COUNT = 10
@@ -441,4 +441,5 @@ def test_login_minwon(repeat_count=REPEAT_COUNT):
         print("ℹ️ 저장할 측정 결과가 없어 CSV는 생성되지 않습니다.")
 
 if __name__ == "__main__":
+
     test_login_minwon()
