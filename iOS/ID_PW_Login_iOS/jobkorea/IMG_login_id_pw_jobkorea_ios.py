@@ -43,7 +43,7 @@ POPUP_Y_PCT = 0.825
 options = XCUITestOptions()
 options.platform_name = "iOS"
 options.automation_name = "XCUITest"
-UDID = "00008120-001E34DC3EB8201E"  # [UDID 입력 필수]
+UDID = "--------------------"  # [UDID 입력 필수]
 options.bundle_id = "kr.co.jobkorea.jobkorea1"
 
 options.set_capability("udid", UDID)
