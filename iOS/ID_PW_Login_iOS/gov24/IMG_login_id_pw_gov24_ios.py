@@ -37,7 +37,7 @@ ROI_CONFIG = {'x': 0, 'y': 0.88, 'w': 1, 'h': 0.1}
 options = XCUITestOptions()
 options.platform_name = "iOS"
 options.automation_name = "XCUITest"
-UDID = "00008120-001E34DC3EB8201E"  # [UDID 입력 필수]
+UDID = "------------------------"  # [UDID 입력 필수]
 options.bundle_id = "kr.go.dcsc.minwon24" 
 options.udid = UDID
 
