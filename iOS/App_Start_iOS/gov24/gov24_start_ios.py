@@ -21,7 +21,7 @@ from appium.webdriver.common.appiumby import AppiumBy
 ITERATIONS = 10
 BUNDLE_ID = "kr.go.dcsc.minwon24"  # 정부24 번들 ID
 APP_ICON_NAME = "정부24"            # 홈 화면 앱 이름
-UDID = "00008120-001E34DC3EB8201E" # 테스트 디바이스 UDID
+UDID = "----------------" # 테스트 디바이스 UDID
 
 # ✅ 이 .py 파일이 있는 폴더 기준으로 경로 설정
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
