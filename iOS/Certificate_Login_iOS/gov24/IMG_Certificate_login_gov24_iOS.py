@@ -20,7 +20,7 @@ warnings.simplefilter('ignore', NotOpenSSLWarning)
 # ---------------------------------------------------------
 # [설정] 정부24 계정 및 테스트 설정
 # ---------------------------------------------------------
-CERTI_PASSWORD = "1------"  # 금융인증서 6자리 비밀번호
+CERTI_PASSWORD = "123456"  # 금융인증서 6자리 비밀번호
 REPEAT_COUNT = 10          # 반복횟수
 
 # [이미지 검증 설정]
@@ -39,7 +39,7 @@ ROI_CONFIG = {
 options = XCUITestOptions()
 options.platform_name = "iOS"
 options.automation_name = "XCUITest"
-options.udid = "00008120-001E34DC3EB8201E"  # 테스트기기 UDID 설정
+options.udid = "------------------"  # 테스트기기 UDID 설정
 options.bundle_id = "kr.go.dcsc.minwon24"
 
 options.set_capability("noReset", True)
