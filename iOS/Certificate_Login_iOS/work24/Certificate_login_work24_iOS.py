@@ -21,13 +21,13 @@ warnings.simplefilter('ignore', NotOpenSSLWarning)
 # ---------------------------------------------------------
 # [설정] 
 # ---------------------------------------------------------
-CERTI_PASSWORD = "170520"  # 금융인증서 비밀번호
+CERTI_PASSWORD = "123456"  # 금융인증서 비밀번호
 REPEAT_COUNT = 10 
 
 options = XCUITestOptions()
 options.platform_name = "iOS"
 options.automation_name = "XCUITest"
-options.udid = "00008120-001E34DC3EB8201E" 
+options.udid = "-----------------" # 테스트 기기 udid 입력
 options.bundle_id = "kr.or.keis.mo" 
 
 options.set_capability("connectHardwareKeyboard", False)
