@@ -16,7 +16,7 @@ options = XCUITestOptions()
 options.platform_name = "iOS"
 options.automation_name = "XCUITest"
 options.bundle_id = "kr.go.dcsc.minwon24"
-options.udid = "00008120-001E34DC3EB8201E"
+options.udid = "------------------"
 
 # ⚡ [속도 최적화 끝판왕 설정]
 options.set_capability("noReset", True)
