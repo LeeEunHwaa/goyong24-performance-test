@@ -21,7 +21,7 @@ ITERATIONS = 10
 keyword = "청년"
 
 options = XCUITestOptions()
-options.udid = "00008120-001E34DC3EB8201E"
+options.udid = "--------------"
 options.platform_name = "iOS"
 options.automation_name = "XCUITest"
 options.bundle_id = "kr.or.keis.mo"
@@ -92,7 +92,7 @@ def wait_for_image_match(driver, start_time, timeout=20):
                 return False
             
             # 0.05초 대기 (CPU 과부하 방지)
-            time.sleep(0.02)
+            time.sleep(0.01)
 
         except Exception as e:
             print(f"   ⚠️ 이미지 분석 중 에러: {e}")
