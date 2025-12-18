@@ -11,7 +11,7 @@ from appium.options.ios import XCUITestOptions
 
 # 설정
 BUNDLE_ID = "kr.go.dcsc.minwon24"  # 정부24 Bundle ID
-UDID = "00008120-001E34DC3EB8201E"  # [UDID 입력 필수]
+UDID = "--------------------"  # [UDID 입력 필수]
 
 # ⭐ ROI 좌표 설정 (화면 중간의 고정된 아이콘/글자 노리기) ⭐
 ROI_X_PCT = 0      # 가로
