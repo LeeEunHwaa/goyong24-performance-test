@@ -21,7 +21,7 @@ from appium.webdriver.common.appiumby import AppiumBy
 ITERATIONS = 10
 BUNDLE_ID = "kr.or.keis.mo"       # 고용24 번들 ID
 APP_ICON_NAME = "고용24"           # 홈 화면에 보이는 아이콘 이름
-UDID = "00008120-001E34DC3EB8201E" # 사용자 아이폰 UDID
+UDID = "----------------" # 사용자 아이폰 UDID
 
 # ✅ 이 .py 파일이 있는 폴더 기준으로 경로 설정
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
